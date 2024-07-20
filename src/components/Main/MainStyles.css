@@ -1,0 +1,237 @@
+.main{
+    width: 73vw;
+    float: right;
+    padding-left: 2rem;
+    position: relative;
+}
+.cards{
+    background-color:#141414;
+    color:white;
+    width: 15vw;
+    padding-top: 1.5rem;
+    padding-left: 1.8rem;
+    padding-bottom: 1.5rem;
+
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.cards-container{
+    padding-top:1.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cards h2{
+    font-size: 19px;
+    font-weight: 600;
+    margin-top:0.3rem;
+}
+.cards h3{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top:0rem;
+    color: #67686a;
+}
+.work-icon{
+    color: #B8860B;
+    border-radius: 50%;
+    font-size: 19px !important;
+}
+.work-icon-container{
+    background-color:#41351b;
+    border-radius: 50% ;
+    padding: 13px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cash-icon-container{
+    background-color:#1b5b34;
+    border-radius: 50% ;
+    padding: 13px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profit{
+    color: #2e9c59;
+    border-radius: 50%;
+    font-size: 19px !important;
+}
+.wallet-icon-container{
+    background-color:#401b1e;
+    border-radius: 50% ;
+    padding: 13px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deposit{
+    color: #9c434a;
+    border-radius: 50%;
+    font-size: 19px !important;
+}
+.cash-icon2-container{
+    background-color:#162a5d;
+    border-radius: 50% ;
+    padding: 13px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.withdraw{
+    color: #2f58be;
+    border-radius: 50%;
+    font-size: 19px !important;
+}
+.w{
+    padding-left: 1.3rem;
+    padding-top: 1.1rem;
+}
+.w-text{
+    color:white;
+    font-weight: 400;
+
+}
+.w-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 11px;
+    align-items: center;
+    padding: 0.3rem 0.3rem;
+    border-radius:5px;
+    background-color: #017bfd;
+    color: white;
+    border: solid 1px #00458f;
+    width: 9rem;
+    margin-top: 0.8rem;
+}
+.plus-icon{
+    font-size: 25px !important;
+}
+.table{
+    color:white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2.1rem;
+    
+
+}
+.table table{
+    width: 95.7%;
+    border-spacing: 0 !important;
+    font-size: 14px;
+
+    
+}
+table thead{
+    background-color: #141414;
+    color: #67686a;
+    border-radius: 20px !important;
+    
+    
+}
+table thead th{
+    padding: 0.6rem 0;
+    border-top: 1px solid #2b2b2b;
+    border-bottom: 1px solid #2b2b2b;
+    
+
+}
+
+table tr td , table tr th {
+    text-align: center;
+    font-weight: 400;
+}
+.first-col{
+    border-top-left-radius: 7px;
+    width: 8rem;
+}
+.last-col{
+    border-top-right-radius: 7px;
+    border-right: 1px solid #2b2b2b;
+}
+.date{
+    text-align: left;
+    padding-left: 0.8rem;
+
+}
+tr td{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: solid 1px #2b2b2b;
+    border-top: solid 1px #2b2b2b;
+    font-size: 13px;
+}
+.details-button{
+    background-color: #017bfd;
+    border: solid 1px #00458f;
+    border-radius: 5px;
+    padding: 0.2rem 0.7rem;
+    color: white;
+    font-size: 12px;
+}
+.processing{
+    color:#c7802a;
+    font-weight: 500;
+}
+.decline{
+    color:#b41d31;
+    font-weight: 500;
+
+}
+.pages{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    bottom:-10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    width: 11vw;
+    
+}
+.pages h6{
+    font-weight: 300;
+}
+.pages div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px white;
+    padding-left: 0.5rem;
+}
+
+.page-no1{
+    background-color: #017bfd;
+    border-radius: 50%;
+    padding: 0.3rem 0.7rem;
+}
+.page-arrow{
+    font-size:12px !important;
+    color:#017bfd ;
+}
+.fd-arrow{
+    font-size: 10px !important;
+    margin-left: 0.3rem;
+}
+.page-no1:hover{
+    background-color: #00458f;
+    cursor: pointer;
+    transition: all ease-in-out 200ms;
+}
+.page-arrow:hover{
+    cursor:pointer;
+}
+.pages div:hover{
+    cursor: pointer;
+}
